@@ -1,5 +1,8 @@
 # ANALYTICS-VIDYA-JOBATHON
 
+Secured rank of "63" out of 7106 participents 
+user name : anonymousQWRC93
+with RMSE score of 33.894
 ####Check the link 
 
 https://datahack.analyticsvidhya.com/contest/job-a-thon-april-2022/#LeaderBoard 
@@ -13,6 +16,7 @@ In recent times, the demand for cars is on the rise. As a result, the company wo
 The main objective of the problem is to develop the machine learning approach to forecast the demand of car rentals on an hourly basis.
 
 #Brief approach to solve the problem.
+
 1.Given train dataset of shape (18247,3), with 3 columns of all numerical type.
 2.Basic data overview in terms of shape, missing values, min, and max values
 3.Followed by Feature engineering to extract features from the given data.
@@ -26,7 +30,12 @@ And evaluate them using a RMSE metric.
 10.Test ML algorithm with validation data and check for RMSE score.
 11.Predcit ML algorithm on test data
 #Data-pre-processing / Feature Engineering ideas really worked? How did you discover them? 
-1.Given train data with 3 columns, where one is converted into datetime format and other 2 columns are in numeric datatype. Using pandas’ data time function, generated 3 new features date, week, month and year. 2.There were no missing values in data, and since features are valued in dates, weeks and years there were no outliers. 3.Days and months Featured engineered column will help us to give the demand across the time frame. This demand variation was capture in EDA. 4.Since data was in time series format, to get better patterns from the date column. Extracted the 3 new features. 5.From correlation there are 3 independent features which are more correlated to demand feature (dependant feature). Following is the order: Hour>week>month>year. 6.Dropped date column from train data as we have already extracted features from it. And kept remaining columns later feed them into models.
+1.Given train data with 3 columns, where one is converted into datetime format and other 2 columns are in numeric datatype. Using pandas’ data time function, generated 3 new features date, week, month and year.
+2.There were no missing values in data, and since features are valued in dates, weeks and years there were no outliers. 
+3.Days and months Featured engineered column will help us to give the demand across the time frame. This demand variation was capture in EDA. 
+4.Since data was in time series format, to get better patterns from the date column. Extracted the 3 new features. 
+5.From correlation there are 3 independent features which are more correlated to demand feature (dependant feature). Following is the order: Hour>week>month>year. 6.Dropped date column from train data as we have already extracted features from it. And kept remaining columns later feed them into models.
+
 #What does your final model look like? How did you reach it? 
 1.From 7 ML + 1 Deep neural network model based on RMSE score was able to find 3 model which are having good RMSE score. a) Deep neural network: 38.70442025947229 b) XGBoost regressor with RMSE score: 37.587497001282905 c) Gradient boosting regressor with RMSE score: 37.58390963641146 2.Final model after hyper parameter tunning, which performed good with low RMSE score was: Gradient boost regressor with RMSE score of: 37.12983198436382 (on validation data) with given hyper parameter values are n_estimators=700, max_Depth=3 
 
