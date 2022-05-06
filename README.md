@@ -1,6 +1,6 @@
 # ANALYTICS-VIDYA-JOBATHON
 
-Secured rank of "63" out of 7106 participents 
+Secured rank of "63" out of 7106 participants 
 user name : anonymousQWRC93
 with RMSE score of 33.894
 ####Check the link 
@@ -29,7 +29,9 @@ And evaluate them using a RMSE metric.
 9.Choose ML algorithm and hyper tuning it and check for RMSE score.
 10.Test ML algorithm with validation data and check for RMSE score.
 11.Predcit ML algorithm on test data
+
 #Data-pre-processing / Feature Engineering ideas really worked? How did you discover them? 
+
 1.Given train data with 3 columns, where one is converted into datetime format and other 2 columns are in numeric datatype. Using pandas’ data time function, generated 3 new features date, week, month and year.
 2.There were no missing values in data, and since features are valued in dates, weeks and years there were no outliers. 
 3.Days and months Featured engineered column will help us to give the demand across the time frame. This demand variation was capture in EDA. 
