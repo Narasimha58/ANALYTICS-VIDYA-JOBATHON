@@ -1,6 +1,6 @@
 # ANALYTICS-VIDYA-JOBATHON
 
-Secured rank of "63" out of 7106 participants 
+Secured"Leaderboard" rank of "63" out of 7106 participants 
 user name : anonymousQWRC93
 with RMSE score of 33.894
 ####Check the link 
