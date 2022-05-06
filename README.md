@@ -1,8 +1,8 @@
 # ANALYTICS-VIDYA-JOBATHON
 
 Secured "Leaderboard" rank of "63" out of 7106 participants, 
-Do check the link and look for : user name : **anonymousQWRC93**
-with RMSE score of 33.894
+Do check the link and look for : user name : **anonymousQWRC93** .
+Made a model with RMSE score of 33.894 on test data.
 ####Check the link 
 
 https://datahack.analyticsvidhya.com/contest/job-a-thon-april-2022/#LeaderBoard 
