@@ -39,13 +39,16 @@ And evaluate them using a RMSE metric.
 #What does your final model look like? How did you reach it? 
 1.From 7 ML + 1 Deep neural network model based on RMSE score was able to find 3 model which are having good RMSE score. a) Deep neural network: 38.70442025947229 b) XGBoost regressor with RMSE score: 37.587497001282905 c) Gradient boosting regressor with RMSE score: 37.58390963641146 2.Final model after hyper parameter tunning, which performed good with low RMSE score was: Gradient boost regressor with RMSE score of: 37.12983198436382 (on validation data) with given hyper parameter values are n_estimators=700, max_Depth=3 
 
-#Summary of data A. 
-Observations 
+#Summary of data
+
+A.Observations 
 1. More demand for rental cars in months of January, February, October, and November. Least in July. 
 2. More demand for car is starting at 10 am to night 8pm. And minimum at 12 am 
 3. From monday to tuesday demand is almost same but on friday demand is more compared to rest of other days followed by thursday. 
 4. More demand has shot up in 2019 and 2020.
- B. Way forwards 
+
+B. Way forwards 
+
 1. Introducte new offer like 5-10% off per 1km in the month of july to increase revenue.
 2. Need to allocate more cars in the months of January, February, october to match with the supply. And also increase the Car collecting points areas. 
 3. Add some attractive offers on thurdays since its demand ranked at 2nd ,it can have potential to attract new customers and add more revenue to company.
